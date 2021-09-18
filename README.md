@@ -92,7 +92,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - Which file is the playbook? Where do you copy it?
   The playbook is the install-elk.yml. 
       
-- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?..
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?
        You update the hosts file in the /etc/ansible folder to specify machines you want to run the playbook on. You can specify which machine you want to install the Elk server on versus Filebeat by changing the hosts section in the playbook to either elk or webservers. 
        
 - Which URL do you navigate to in order to check that the ELK server is running?
