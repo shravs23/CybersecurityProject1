@@ -99,11 +99,11 @@ In order to use the playbook, you will need to have an Ansible control node alre
        -  http://[your.VM.IP]:5601/app/kibana (public ip of your ELK VM)
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.:
-    - ssh username@jumpboxip
-    - sudo docker container list -a
-    - sudo docker start dockername
-    - sudo docker attach dockername
-    - cd /etc/ansible
-    - nano hosts (list machine IPs you want to run playbook on in this file)
-    - nano yourplaybookname.yml (list which commands you want this playbook to run in this file, this is the actual playbook file)
-    - sudo ansible-playbook yourplaybookname.yml (command to run the playbook you created)
+    - ssh username@jumpboxip, 
+    - sudo docker container list -a,
+    - sudo docker start dockername,
+    - sudo docker attach dockername,
+    - cd /etc/ansible,
+    - nano hosts (list machine IPs you want to run playbook on in this file),
+    - nano yourplaybookname.yml (list which commands you want this playbook to run in this file, this is the actual playbook file),
+    - sudo ansible-playbook yourplaybookname.yml (command to run the playbook you created),
