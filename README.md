@@ -98,7 +98,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 - Which URL do you navigate to in order to check that the ELK server is running?
        -http://[your.VM.IP]:5601/app/kibana (public ip of your ELK VM)
 
-As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc.:
+The specific commands the user will need to run to download the playbook, update the files, etc.:
     - ssh username@jumpboxip, 
     - sudo docker container list -a,
     - sudo docker start dockername,
